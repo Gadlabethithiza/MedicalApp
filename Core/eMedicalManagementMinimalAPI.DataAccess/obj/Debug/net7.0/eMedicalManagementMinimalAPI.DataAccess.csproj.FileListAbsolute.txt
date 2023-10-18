@@ -1,0 +1,24 @@
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/CLASS LIBRARIES/eMedicalManagementMinimalAPI.DataAccess/bin/Debug/net7.0/eMedicalManagementMinimalAPI.DataAccess.deps.json
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/CLASS LIBRARIES/eMedicalManagementMinimalAPI.DataAccess/bin/Debug/net7.0/eMedicalManagementMinimalAPI.DataAccess.dll
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/CLASS LIBRARIES/eMedicalManagementMinimalAPI.DataAccess/bin/Debug/net7.0/eMedicalManagementMinimalAPI.DataAccess.pdb
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/CLASS LIBRARIES/eMedicalManagementMinimalAPI.DataAccess/obj/Debug/net7.0/eMedicalManagementMinimalAPI.DataAccess.csproj.AssemblyReference.cache
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/CLASS LIBRARIES/eMedicalManagementMinimalAPI.DataAccess/obj/Debug/net7.0/eMedicalManagementMinimalAPI.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/CLASS LIBRARIES/eMedicalManagementMinimalAPI.DataAccess/obj/Debug/net7.0/eMedicalManagementMinimalAPI.DataAccess.AssemblyInfoInputs.cache
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/CLASS LIBRARIES/eMedicalManagementMinimalAPI.DataAccess/obj/Debug/net7.0/eMedicalManagementMinimalAPI.DataAccess.AssemblyInfo.cs
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/CLASS LIBRARIES/eMedicalManagementMinimalAPI.DataAccess/obj/Debug/net7.0/eMedicalManagementMinimalAPI.DataAccess.csproj.CoreCompileInputs.cache
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/CLASS LIBRARIES/eMedicalManagementMinimalAPI.DataAccess/obj/Debug/net7.0/eMedicalManagementMinimalAPI.DataAccess.dll
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/CLASS LIBRARIES/eMedicalManagementMinimalAPI.DataAccess/obj/Debug/net7.0/refint/eMedicalManagementMinimalAPI.DataAccess.dll
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/CLASS LIBRARIES/eMedicalManagementMinimalAPI.DataAccess/obj/Debug/net7.0/eMedicalManagementMinimalAPI.DataAccess.pdb
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/CLASS LIBRARIES/eMedicalManagementMinimalAPI.DataAccess/obj/Debug/net7.0/ref/eMedicalManagementMinimalAPI.DataAccess.dll
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Core/eMedicalManagementMinimalAPI.DataAccess/bin/Debug/net7.0/eMedicalManagementMinimalAPI.DataAccess.deps.json
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Core/eMedicalManagementMinimalAPI.DataAccess/bin/Debug/net7.0/eMedicalManagementMinimalAPI.DataAccess.dll
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Core/eMedicalManagementMinimalAPI.DataAccess/bin/Debug/net7.0/eMedicalManagementMinimalAPI.DataAccess.pdb
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Core/eMedicalManagementMinimalAPI.DataAccess/obj/Debug/net7.0/eMedicalManagementMinimalAPI.DataAccess.csproj.AssemblyReference.cache
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Core/eMedicalManagementMinimalAPI.DataAccess/obj/Debug/net7.0/eMedicalManagementMinimalAPI.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Core/eMedicalManagementMinimalAPI.DataAccess/obj/Debug/net7.0/eMedicalManagementMinimalAPI.DataAccess.AssemblyInfoInputs.cache
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Core/eMedicalManagementMinimalAPI.DataAccess/obj/Debug/net7.0/eMedicalManagementMinimalAPI.DataAccess.AssemblyInfo.cs
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Core/eMedicalManagementMinimalAPI.DataAccess/obj/Debug/net7.0/eMedicalManagementMinimalAPI.DataAccess.csproj.CoreCompileInputs.cache
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Core/eMedicalManagementMinimalAPI.DataAccess/obj/Debug/net7.0/eMedicalManagementMinimalAPI.DataAccess.dll
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Core/eMedicalManagementMinimalAPI.DataAccess/obj/Debug/net7.0/refint/eMedicalManagementMinimalAPI.DataAccess.dll
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Core/eMedicalManagementMinimalAPI.DataAccess/obj/Debug/net7.0/eMedicalManagementMinimalAPI.DataAccess.pdb
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Core/eMedicalManagementMinimalAPI.DataAccess/obj/Debug/net7.0/ref/eMedicalManagementMinimalAPI.DataAccess.dll

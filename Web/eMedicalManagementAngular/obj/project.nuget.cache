@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6gxz7cj3+C8+656v7vhCOKrUji/yzFipdVAHSwhdOeCGyTUPI/FtyqYNGXLPKnM1wZYGRFytGmXReF39DnG7lg==",
+  "success": true,
+  "projectFilePath": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementAngular/eMedicalManagementAngular.csproj",
+  "expectedPackageFiles": [
+    "/Users/mac/.nuget/packages/microsoft.aspnetcore.spaproxy/7.0.7/microsoft.aspnetcore.spaproxy.7.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}

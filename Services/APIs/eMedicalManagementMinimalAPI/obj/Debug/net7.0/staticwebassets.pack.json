@@ -1,0 +1,97 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementMinimalAPI/wwwroot/swagger/custom.css",
+      "PackagePath": "staticwebassets/swagger/custom.css"
+    },
+    {
+      "Id": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementMinimalAPI/wwwroot/swagger/favicon-16x16.png",
+      "PackagePath": "staticwebassets/swagger/favicon-16x16.png"
+    },
+    {
+      "Id": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementMinimalAPI/wwwroot/swagger/favicon-32x32.png",
+      "PackagePath": "staticwebassets/swagger/favicon-32x32.png"
+    },
+    {
+      "Id": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementMinimalAPI/wwwroot/swagger/index.css",
+      "PackagePath": "staticwebassets/swagger/index.css"
+    },
+    {
+      "Id": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementMinimalAPI/wwwroot/swagger/index.html",
+      "PackagePath": "staticwebassets/swagger/index.html"
+    },
+    {
+      "Id": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementMinimalAPI/wwwroot/swagger/oauth2-redirect.html",
+      "PackagePath": "staticwebassets/swagger/oauth2-redirect.html"
+    },
+    {
+      "Id": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementMinimalAPI/wwwroot/swagger/swagger-initializer.js",
+      "PackagePath": "staticwebassets/swagger/swagger-initializer.js"
+    },
+    {
+      "Id": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementMinimalAPI/wwwroot/swagger/swagger-ui-bundle.js",
+      "PackagePath": "staticwebassets/swagger/swagger-ui-bundle.js"
+    },
+    {
+      "Id": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementMinimalAPI/wwwroot/swagger/swagger-ui-bundle.js.map",
+      "PackagePath": "staticwebassets/swagger/swagger-ui-bundle.js.map"
+    },
+    {
+      "Id": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementMinimalAPI/wwwroot/swagger/swagger-ui-es-bundle-core.js",
+      "PackagePath": "staticwebassets/swagger/swagger-ui-es-bundle-core.js"
+    },
+    {
+      "Id": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementMinimalAPI/wwwroot/swagger/swagger-ui-es-bundle-core.js.map",
+      "PackagePath": "staticwebassets/swagger/swagger-ui-es-bundle-core.js.map"
+    },
+    {
+      "Id": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementMinimalAPI/wwwroot/swagger/swagger-ui-es-bundle.js",
+      "PackagePath": "staticwebassets/swagger/swagger-ui-es-bundle.js"
+    },
+    {
+      "Id": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementMinimalAPI/wwwroot/swagger/swagger-ui-es-bundle.js.map",
+      "PackagePath": "staticwebassets/swagger/swagger-ui-es-bundle.js.map"
+    },
+    {
+      "Id": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementMinimalAPI/wwwroot/swagger/swagger-ui-standalone-preset.js",
+      "PackagePath": "staticwebassets/swagger/swagger-ui-standalone-preset.js"
+    },
+    {
+      "Id": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementMinimalAPI/wwwroot/swagger/swagger-ui-standalone-preset.js.map",
+      "PackagePath": "staticwebassets/swagger/swagger-ui-standalone-preset.js.map"
+    },
+    {
+      "Id": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementMinimalAPI/wwwroot/swagger/swagger-ui.css",
+      "PackagePath": "staticwebassets/swagger/swagger-ui.css"
+    },
+    {
+      "Id": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementMinimalAPI/wwwroot/swagger/swagger-ui.css.map",
+      "PackagePath": "staticwebassets/swagger/swagger-ui.css.map"
+    },
+    {
+      "Id": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementMinimalAPI/wwwroot/swagger/swagger-ui.js",
+      "PackagePath": "staticwebassets/swagger/swagger-ui.js"
+    },
+    {
+      "Id": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementMinimalAPI/wwwroot/swagger/swagger-ui.js.map",
+      "PackagePath": "staticwebassets/swagger/swagger-ui.js.map"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.eMedicalManagementMinimalAPI.props",
+      "PackagePath": "build\\eMedicalManagementMinimalAPI.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.eMedicalManagementMinimalAPI.props",
+      "PackagePath": "buildMultiTargeting\\eMedicalManagementMinimalAPI.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.eMedicalManagementMinimalAPI.props",
+      "PackagePath": "buildTransitive\\eMedicalManagementMinimalAPI.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.eMedicalManagementMinimalAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

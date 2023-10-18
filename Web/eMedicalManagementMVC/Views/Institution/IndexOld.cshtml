@@ -1,0 +1,132 @@
+﻿@model IEnumerable<eMedicalManagementMinimalAPI.Core.Entities.InstitutionItem>
+
+@{
+    ViewData["Title"] = "All Institutions";
+}
+
+<!--<p>-->
+@*<a asp-page="Create">Create New</a>*@
+<!--<a asp-action="AddInstitution" class="btn btn-sm btn-primary">Add Institution</a>
+    <a asp-action="GetInstitution" class="btn btn-sm btn-secondary">Get Institution</a>
+</p>-->
+div class="card">
+<div class="col-sm-12" style="padding:20px">
+    <a onclick="jQueryModalGet('?handler=CreateOrEdit','Create Customer')" class="btn bg-success">
+        Create
+    </a>
+    <a id="reload" class="btn bg-warning">
+        Reload
+    </a>
+</div>
+<div id="viewAll" class="card-body table-responsive"></div>
+</div>
+@section Scripts
+{
+    <script>$(document).ready(function () {
+            $('#viewAll').load('?handler=ViewAllPartial');
+        });
+        $(function () {
+            $('#reload').on('click', function () {
+                $('#viewAll').load('?handler=ViewAllPartial');
+            });
+        });</script>
+}
+
+<table class="table table-bordered" id="customerTable">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.InstitutionId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InstitutionName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ParentInstitutionId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InstitutionDesc)
+            </th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Count() != 0)
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.InstitutionId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.InstitutionName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ParentInstitutionId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.InstitutionDesc)
+                    </td>
+                    <td text-right">
+                        <a onclick="jQueryModalGet('?handler=CreateOrEdit&id=@item.InstitutionId','Edit Institution')" class="btn btn-info text-white"> Edit</a>
+                        <form method="post" asp-page="Index" asp-route-id="@item.InstitutionId" asp-page-handler="Delete" onsubmit="return jQueryModalDelete(this)" class="d-inline">
+                            <button type="submit" class="btn btn-danger text-white"> Delete</button>
+                        </form>
+                    </td>
+
+                    @*<td>
+                            <a asp-page="./Edit" asp-route-id="@item.InstitutionId">Edit</a> |
+                            <a asp-page="./Details" asp-route-id="@item.InstitutionId">Details</a> |
+                            <a asp-page="./Delete" asp-route-id="@item.InstitutionId">Delete</a>
+                        </td>*@
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+
+
+
+
+
+
+@*<h2>All Reservations</h2>
+    <a asp-action="AddInstitution" class="btn btn-sm btn-primary">Add Institution</a>
+    <a asp-action="GetInstitution" class="btn btn-sm btn-secondary">Get Institution</a>
+
+    <table class="table table-sm table-striped table-bordered m-2">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Start Location</th>
+                <th>End Location</th>
+                <th>Update</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var r in Model)
+            {
+                <tr>
+                    <td>@r.InstitutionId</td>
+                    <td>@r.InstitutionName</td>
+                    <td>@r.cipc_company_no</td>
+                    <td>@r.cipc_registration_date.</td>
+                    <td>
+                        <a asp-action="UpdateInstitution" asp-route-id="@r.InstitutionId">
+                            <img src="/icon/edit.png" />
+                        </a>
+                    </td>
+                    <td>
+                        <form asp-action="DeleteInstitution" method="post">
+                            <input type="hidden" value="@r.InstitutionId" name="ReservationId" />
+                            <input type="image" src="/icon/close.png" />
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>*@

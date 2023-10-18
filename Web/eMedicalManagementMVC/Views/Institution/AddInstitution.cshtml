@@ -1,0 +1,123 @@
+﻿@model eMedicalManagementMinimalAPI.Core.Entities.InstitutionItem
+@{
+    ViewBag.Title = "Add Institution";
+}
+
+<form id="create-form" method="post" asp-page="Index" asp-route-id="@Model.InstitutionId" asp-page-handler="CreateOrEdit" onsubmit="return jQueryModalPost(this);">
+    <div class="form-group row">
+        <label class="col-md-3 col-form-label">Institution Name</label>
+        <div class="col-md-9">
+            <input type="text" autocomplete="off" asp-for="InstitutionName" name="InstitutionName" class="form-control">
+            <span asp-validation-for="InstitutionName" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-md-3 col-form-label">Parent Institution Name</label>
+        <div class="col-md-9">
+            <input type="text" autocomplete="off" asp-for="ParentInstitutionId" name="ParentInstitutionId" class="form-control">
+            <span asp-validation-for="ParentInstitutionId" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-md-3 col-form-label">Company No</label>
+        <div class="col-md-9">
+            <input type="email" autocomplete="off" asp-for="cipc_company_no" name="cipc_company_no" class="form-control">
+            <span asp-validation-for="cipc_company_no" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-md-3 col-form-label">Company Registration Date</label>
+        <div class="col-md-9">
+            <input type="number" autocomplete="off" asp-for="cipc_registration_date" name="cipc_registration_date" class="form-control" />
+            <span asp-validation-for="cipc_registration_date" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-md-3 col-form-label">Location Address Line 1</label>
+        <div class="col-md-9">
+            <input type="text" autocomplete="off" asp-for="phy_addr_line1" name="phy_addr_line1" class="form-control" />
+            <span asp-validation-for="phy_addr_line1" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-md-3 col-form-label">Location Address Line 2</label>
+        <div class="col-md-9">
+            <input type="text" autocomplete="off" asp-for="phy_addr_line2" name="phy_addr_line2" class="form-control" />
+            <span asp-validation-for="phy_addr_line2" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-md-3 col-form-label">City</label>
+        <div class="col-md-9">
+            <input type="text" autocomplete="off" asp-for="phy_addr_line3" name="phy_addr_line3" class="form-control" />
+            <span asp-validation-for="phy_addr_line3" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-md-3 col-form-label">Province</label>
+        <div class="col-md-9">
+            <input type="text" autocomplete="off" asp-for="phy_addr_line4" name="phy_addr_line4" class="form-control" />
+            <span asp-validation-for="phy_addr_line4" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-md-3 col-form-label">Postal Code</label>
+        <div class="col-md-9">
+            <input type="text" autocomplete="off" asp-for="phy_addr_line5" name="phy_addr_line5" class="form-control" />
+            <span asp-validation-for="phy_addr_line5" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-md-3">
+        </div>
+    </div>
+    <div class="form-group justify-content-between">
+        <button type="button" class="btn btn-secondary close-button" data-dismiss="modal">Cancel</button>
+        <button type="submit" class="btn btn-primary save-button">Save</button>
+    </div>
+
+</form>
+<script type="text/javascript" language=javascript>$.validator.unobtrusive.parse(document);</script>
+
+
+@*<h4>Movie</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="InstitutionItem." class="control-label"></label>
+                    <input asp-for="Movie.Title" class="form-control" />
+                    <span asp-validation-for="Movie.Title" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Movie.ReleaseDate" class="control-label"></label>
+                    <input asp-for="Movie.ReleaseDate" class="form-control" />
+                    <span asp-validation-for="Movie.ReleaseDate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Movie.Genre" class="control-label"></label>
+                    <input asp-for="Movie.Genre" class="form-control" />
+                    <span asp-validation-for="Movie.Genre" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Movie.Price" class="control-label"></label>
+                    <input asp-for="Movie.Price" class="form-control" />
+                    <span asp-validation-for="Movie.Price" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-page="Index">Back to List</a>
+    </div>
+
+    @section Scripts {
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }
+*@

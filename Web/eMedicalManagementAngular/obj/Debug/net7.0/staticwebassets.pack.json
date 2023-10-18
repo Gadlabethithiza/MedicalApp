@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementAngular/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.eMedicalManagementAngular.props",
+      "PackagePath": "build\\eMedicalManagementAngular.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.eMedicalManagementAngular.props",
+      "PackagePath": "buildMultiTargeting\\eMedicalManagementAngular.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.eMedicalManagementAngular.props",
+      "PackagePath": "buildTransitive\\eMedicalManagementAngular.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.eMedicalManagementAngular.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,66 @@
+﻿@model eMedicalManagementMinimalAPI.Core.Entities.ProvinceItem
+@{
+    ViewBag.Title = "Update a Province";
+}
+
+<h2>Update a Reservation <a asp-action="Index" class="btn btn-sm btn-secondary">Back</a></h2>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="ProvinceId"></label>
+        <input class="form-control" asp-for="ProvinceId" readonly />
+    </div>
+    <div class="form-group">
+        <label asp-for="ProvinceName"></label>
+        <input class="form-control" asp-for="ProvinceName" />
+    </div>
+    @*<div class="form-group">
+            <label asp-for="StartLocation"></label>
+            <input class="form-control" asp-for="StartLocation" />
+        </div>
+        <div class="form-group">
+            <label asp-for="EndLocation"></label>
+            <input class="form-control" asp-for="EndLocation" />
+        </div>*@
+    <div class="text-center panel-body">
+        <button type="submit" class="btn btn-sm btn-primary">Update</button>
+    </div>
+</form>
+
+@if (ViewBag.Result == "Success")
+{
+    <h2>Province</h2>
+    <table class="table table-sm table-striped table-bordered m-2">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Province Name</th>
+                <th>Created Date</th>
+                <th>Modified Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model.ProvinceId</td>
+                <td>@Model.ProvinceName</td>
+                <td>@Model.created_date.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                <td>@Model.modified_date.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                <td colspan="2">
+                    <table border="1">
+                        <tr>
+                            <td width="30" style="padding:2px;" align="center" valign="top">
+                                <a asp-action="UpdateProvince" class="btn btn-sm btn-success" asp-route-id="@Model.ProvinceId"></a>
+                            </td>
+                            <td width="30">
+                                <form asp-action="DeleteProvince" method="post">
+                                    <input type="hidden" value="@Model.ProvinceId" name="ProvinceId" />
+                                    <button type="button" class="btn btn-sm btn-danger">Delete</button>
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+}

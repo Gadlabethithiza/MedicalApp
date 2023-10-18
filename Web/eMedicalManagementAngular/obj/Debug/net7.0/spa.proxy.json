@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:44445",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementAngular/ClientApp/",
+"MaxTimeoutInSeconds": "120"
+}
+}

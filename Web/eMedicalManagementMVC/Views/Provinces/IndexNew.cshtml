@@ -1,0 +1,58 @@
+﻿
+
+<table id="myTable1" class="table table-sm table-striped table-bordered m-2">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Province Name</th>
+            <th>Created Date</th>
+            <th>Modified Date</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var r in Model.CustomerModel.ProvinceItem)
+        {
+        <tr>
+            <td>@r.ProvinceId</td>
+            <td>@r.ProvinceName</td>
+            <td>@r.created_date.ToString("yyyy-MM-dd HH:mm:ss")</td>
+            <td>@r.modified_date.ToString("yyyy-MM-dd HH:mm:ss")</td>
+            <td colspan="2">
+                <div class="gro">
+
+                </div>
+
+                <table border="0">
+                    <tr>
+                        <td width="30" align="center" valign="top">
+                            <a asp-action="UpdateProvince" asp-route-id="@r.ProvinceId">
+                                <i class="fa fa-pencil-square-o" style="color: grey; font-size: 24px"></i>
+                            </a>
+                        </td>
+                        <td width="30">
+                            <form asp-action="DeleteProvince" method="post">
+                                <input type="hidden" value="@r.ProvinceId" name="ProvinceId" />
+                                <i class="fa fa-trash-o" style="color: red; font-size: 24px"></i>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        }
+    </tbody>
+
+</table>
+
+<div>
+    <ul class="pagination">
+        @for (var i = 1; i <= Model.TotalPages; i++)
+        {
+        <li class="page-item @(i == Model.CurrentPage ? "active" : "")">
+            <a asp-page="/pagination" asp-route-currentpage="@i" class="page-link">@i</a>
+        </li>
+        }
+    </ul>
+</div>
+

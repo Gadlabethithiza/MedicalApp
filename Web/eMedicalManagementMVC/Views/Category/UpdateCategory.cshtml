@@ -1,0 +1,21 @@
+﻿@model eMedicalManagementMinimalAPI.Core.Entities.CategoryItem
+@{
+    ViewBag.Title = "Update Category Item";
+}
+
+<h2>Modify Category <a asp-action="Index" class="btn btn-sm btn-secondary">Back to List</a></h2>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Name">Name:</label>
+        <input class="form-control" asp-for="Name" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description">Description:</label>
+        <input class="form-control" asp-for="Description" />
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <div class="text-center panel-body">
+        <button type="submit" class="btn btn-sm btn-primary">Update Info</button>
+    </div>
+</form>

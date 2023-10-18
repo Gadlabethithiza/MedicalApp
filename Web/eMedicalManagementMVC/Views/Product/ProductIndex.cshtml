@@ -1,0 +1,67 @@
+﻿@model IEnumerable<eMedicalManagementMinimalAPI.Core.Entities.ProductItem>
+
+@{
+    ViewData["Title"] = "All Products";
+
+}
+
+<h1>Product List</h1>
+@*<form method="get">
+        <div class="form-group">
+            <div class="input-group">
+                <input type="search" class="form-control" asp-for="SearchTerm" />
+                <span class="input-group-btn">
+                    <button class="btn btn-primary">
+                        Search
+                    </button>
+                </span>
+            </div>
+        </div>
+    </form>
+    <p>
+        <a asp-page="Create">Create New</a>
+    </p>*@
+
+<a asp-action="AddProduct" class="btn btn-sm btn-primary">Add Product</a>
+@*<a asp-action="GetProvince" class="btn btn-sm btn-secondary">Get Province</a>*@
+
+
+<table id="myTable" border="0" class="table table-sm table-striped table-bordered m-2">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">@Html.ActionLink("Product Name", "ProductIndex", new { sortOrder = ViewBag.NameSortParm })</th>
+            <th scope="col">Category</th>
+            <th scope="col">Unit Price</th>
+            <th scope="col">Available Quantity</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var r in Model)
+        {
+            <tr>
+                <th scope="row">@r.ProductId</th>
+                <td>@r.Name</td>
+                <td>@r.Category.Name</td>
+                <td>@r.UnitPrice</td>
+                <td>@r.AvailableQuantity</td>
+
+                <td valign="top" style="width:100px;">
+                    <a asp-action="ViewProduct" asp-route-Id="@r.ProductId">
+                        <i class="fa fa-folder-open-o" style="color: blue; font-size: 24px"></i>
+                    </a>
+
+                    <a asp-action="UpdateProduct" asp-route-id="@r.ProductId">
+                        <i class="fa fa-pencil-square-o" style="color: grey; font-size: 24px"></i>
+                    </a>
+
+                    <a asp-action="DeleteProduct" asp-route-Id="@r.ProductId">
+                        <i class="fa fa-trash-o" style="color: red; font-size: 24px"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

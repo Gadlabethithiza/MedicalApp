@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "o+vzQPbNt5xDJIBfqoSax3gAxM0dLZuNrB6ZGDL7V8U=",
+  "Source": "eMedicalManagmentODataAPI",
+  "BasePath": "_content/eMedicalManagmentODataAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

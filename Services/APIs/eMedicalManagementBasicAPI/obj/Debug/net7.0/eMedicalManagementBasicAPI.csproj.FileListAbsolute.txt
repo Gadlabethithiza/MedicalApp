@@ -1,0 +1,66 @@
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/bin/Debug/net7.0/appsettings.Development.json
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/bin/Debug/net7.0/appsettings.json
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/bin/Debug/net7.0/eMedicalManagementBasicAPI
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/bin/Debug/net7.0/eMedicalManagementBasicAPI.deps.json
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/bin/Debug/net7.0/eMedicalManagementBasicAPI.runtimeconfig.json
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/bin/Debug/net7.0/eMedicalManagementBasicAPI.dll
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/bin/Debug/net7.0/eMedicalManagementBasicAPI.pdb
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/obj/Debug/net7.0/eMedicalManagementBasicAPI.csproj.AssemblyReference.cache
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/obj/Debug/net7.0/eMedicalManagementBasicAPI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/obj/Debug/net7.0/eMedicalManagementBasicAPI.AssemblyInfoInputs.cache
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/obj/Debug/net7.0/eMedicalManagementBasicAPI.AssemblyInfo.cs
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/obj/Debug/net7.0/eMedicalManagementBasicAPI.csproj.CoreCompileInputs.cache
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/obj/Debug/net7.0/eMedicalManagementBasicAPI.MvcApplicationPartsAssemblyInfo.cs
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/obj/Debug/net7.0/eMedicalManagementBasicAPI.MvcApplicationPartsAssemblyInfo.cache
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/obj/Debug/net7.0/staticwebassets/msbuild.eMedicalManagementBasicAPI.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/obj/Debug/net7.0/staticwebassets/msbuild.build.eMedicalManagementBasicAPI.props
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.eMedicalManagementBasicAPI.props
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.eMedicalManagementBasicAPI.props
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/obj/Debug/net7.0/staticwebassets.build.json
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/obj/Debug/net7.0/staticwebassets.development.json
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/obj/Debug/net7.0/scopedcss/bundle/eMedicalManagementBasicAPI.styles.css
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/obj/Debug/net7.0/eMedicalManagementBasicAPI.csproj.CopyComplete
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/obj/Debug/net7.0/eMedicalManagementBasicAPI.dll
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/obj/Debug/net7.0/refint/eMedicalManagementBasicAPI.dll
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/obj/Debug/net7.0/eMedicalManagementBasicAPI.pdb
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/obj/Debug/net7.0/eMedicalManagementBasicAPI.genruntimeconfig.cache
+/Users/mac/Projects/WEB_APIs/eMedicalManagement/eMedicalManagementBasicAPI/obj/Debug/net7.0/ref/eMedicalManagementBasicAPI.dll
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/bin/Debug/net7.0/appsettings.Development.json
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/bin/Debug/net7.0/appsettings.json
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/bin/Debug/net7.0/eMedicalManagementBasicAPI
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/bin/Debug/net7.0/eMedicalManagementBasicAPI.deps.json
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/bin/Debug/net7.0/eMedicalManagementBasicAPI.runtimeconfig.json
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/bin/Debug/net7.0/eMedicalManagementBasicAPI.dll
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/bin/Debug/net7.0/eMedicalManagementBasicAPI.pdb
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/obj/Debug/net7.0/eMedicalManagementBasicAPI.csproj.AssemblyReference.cache
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/obj/Debug/net7.0/eMedicalManagementBasicAPI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/obj/Debug/net7.0/eMedicalManagementBasicAPI.AssemblyInfoInputs.cache
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/obj/Debug/net7.0/eMedicalManagementBasicAPI.AssemblyInfo.cs
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/obj/Debug/net7.0/eMedicalManagementBasicAPI.csproj.CoreCompileInputs.cache
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/obj/Debug/net7.0/eMedicalManagementBasicAPI.MvcApplicationPartsAssemblyInfo.cs
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/obj/Debug/net7.0/eMedicalManagementBasicAPI.MvcApplicationPartsAssemblyInfo.cache
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/obj/Debug/net7.0/staticwebassets/msbuild.eMedicalManagementBasicAPI.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/obj/Debug/net7.0/staticwebassets/msbuild.build.eMedicalManagementBasicAPI.props
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.eMedicalManagementBasicAPI.props
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.eMedicalManagementBasicAPI.props
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/obj/Debug/net7.0/staticwebassets.build.json
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/obj/Debug/net7.0/staticwebassets.development.json
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/obj/Debug/net7.0/scopedcss/bundle/eMedicalManagementBasicAPI.styles.css
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/obj/Debug/net7.0/eMedicalManagementBasicAPI.csproj.CopyComplete
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/obj/Debug/net7.0/eMedicalManagementBasicAPI.dll
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/obj/Debug/net7.0/refint/eMedicalManagementBasicAPI.dll
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/obj/Debug/net7.0/eMedicalManagementBasicAPI.pdb
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/obj/Debug/net7.0/eMedicalManagementBasicAPI.genruntimeconfig.cache
+/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementBasicAPI/obj/Debug/net7.0/ref/eMedicalManagementBasicAPI.dll

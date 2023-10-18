@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "v1jgLTignLIjnyue6MM8dQqyme7wfRg+TytZvjmsFUQ=",
+  "Source": "eMedicalManagementAngular",
+  "BasePath": "_content/eMedicalManagementAngular",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "eMedicalManagementAngular/wwwroot",
+      "Source": "eMedicalManagementAngular",
+      "ContentRoot": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementAngular/wwwroot/",
+      "BasePath": "_content/eMedicalManagementAngular",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementAngular/wwwroot/favicon.ico",
+      "SourceId": "eMedicalManagementAngular",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementAngular/wwwroot/",
+      "BasePath": "_content/eMedicalManagementAngular",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/favicon.ico"
+    }
+  ]
+}

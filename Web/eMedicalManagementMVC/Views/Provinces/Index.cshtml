@@ -1,0 +1,194 @@
+﻿@model IEnumerable<eMedicalManagementMinimalAPI.Core.Entities.ProvinceItem>
+
+@{
+    ViewData["Title"] = "All Provinces";
+
+}
+
+@*https://www.mikesdotnetting.com/article/328/simple-paging-in-asp-net-core-razor-pages*@
+@*<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">*@
+
+<link href="//cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css" rel="stylesheet" />
+
+<h2>All Provinces</h2>
+<a asp-action="AddProvince" class="btn btn-sm btn-primary">Add Province</a>
+<a asp-action="GetProvince" class="btn btn-sm btn-secondary">Get Province</a>
+
+@*<form>
+        <p>
+            Title: <input type="text" asp-for="SearchString" />
+            <input type="submit" value="Filter" />
+        </p>
+    </form>*@
+
+
+@*<script>$(document).ready(function () {
+            $('#myTable').DataTable(
+                {
+                    ajax: {
+                        url: "Home/GetEmployeeList",
+                        type: "POST",
+                    },
+                    processing: true,
+                    serverSide: true,
+                    filter: true,
+                    columns: [
+                        { data: "employeeId", name: "EmployeeId" },
+                        { data: "employeeFirstName", name: "EmployeeFirstName" },
+                        { data: "employeeLastName", name: "EmployeeLastName" },
+                        { data: "salary", name: "Salary" },
+                        { data: "designation", name: "Designation" },
+                    ]
+                }
+            );
+        });</script>
+
+
+
+    <div class="container">
+        <div class="table-responsive">
+            <table id="myTable" class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Employee Id</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Salary</th>
+                        <th>Designation</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>*@
+
+@*<div class="container">
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-3 m-3">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">@item.ProvinceName</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">@item.ProvinceId $</h6>
+                            <p class="card-text">@item.ProvinceName.</p>
+
+                            <table border="0">
+                                <tr>
+                                    <td width="30" align="center" valign="top">
+                                        <a asp-action="UpdateProvince" asp-route-id="@item.ProvinceId">
+                                            <i class="fa fa-pencil-square-o" style="color: grey; font-size: 24px"></i>
+                                        </a>
+                                    </td>
+                                    <td width="30">
+                                        <form asp-action="DeleteProvince" method="post">
+                                            <input type="hidden" value="@item.ProvinceId" name="ProvinceId" />
+                                            <i class="fa fa-trash-o" style="color: red; font-size: 24px"></i>
+                                        </form>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>*@
+
+<table id="myTable1" border="0" class="table table-sm table-striped table-bordered m-2">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>@Html.ActionLink("Province Name", "Index", new { sortOrder = ViewBag.NameSortParm })</th>
+            <th>Created Date</th>
+            <th>Modified Date</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var r in Model)
+        {
+            <tr>
+                <td>@r.ProvinceId</td>
+                <td>@r.ProvinceName</td>
+                <td>@r.created_date.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                <td>@r.modified_date.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                <td style="width:50px;">
+                    <a asp-action="UpdateProvince" asp-route-id="@r.ProvinceId">
+                        <i class="fa fa-pencil-square-o" style="color: grey; font-size: 24px"></i>
+                    </a>
+
+                    <a asp-action="DeleteProvince" asp-route-Id="@r.ProvinceId">
+                        <i class="fa fa-trash-o" style="color: red; font-size: 24px"></i>
+                    </a>
+
+                    @*<form asp-action="DeleteProvince" method="post">
+                        <input type="hidden" value="@r.ProvinceId" name="ProvinceId" />
+                        <i class="fa fa-trash-o" style="color: red; font-size: 24px"></i>
+                    </form>*@
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<!--<h1>Province List</h1>-->
+@*<form method="get">
+    <div class="form-group">
+        <div class="input-group">
+            <input type="search" class="form-control" asp-for="SearchTerm" />
+            <span class="input-group-btn">
+                <button class="btn btn-primary">
+                    Search
+                </button>
+            </span>
+        </div>
+    </div>
+</form>*@
+@*<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>@Html.ActionLink("Province Name", "Index", new { sortOrder = ViewBag.NameSortParm })</th>
+            <th>Created Date</th>
+            <th>Modified Date</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <th scope="row">@product.ProvinceId</th>
+                <td>@product.ProvinceName</td>
+                <td>@product.created_date</td>
+                <td>@product.modified_date</td>
+                <td>
+                    <a class="btn btn-primary" asp-page="./Details" asp-route-productId="@product.ProvinceId.">
+                        Details
+                    </a>
+                    <a class="btn btn-primary" asp-page="./Edit" asp-route-productId="@product.ProvinceId">
+                        Edit
+                    </a>
+                    <a class="btn btn-danger" asp-page="./Delete" asp-route-productId="@product.ProvinceId">
+                        Delete
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>*@
+
+@*<div>
+        <ul class="pagination">
+            @for (var i = 1; i <= Model.TotalPages; i++)
+            {
+                <li class="page-item @(i == Model.CurrentPage ? "active" : "")">
+                    <a asp-page="/pagination" asp-route-currentpage="@i" class="page-link">@i</a>
+                </li>
+            }
+        </ul>
+    </div>*@

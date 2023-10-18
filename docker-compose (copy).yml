@@ -1,0 +1,40 @@
+version: '3.4'
+
+services:
+  emedicalmanagementminimalblazor:
+    image: ${DOCKER_REGISTRY-}emedicalmanagementminimalblazor
+    build:
+      context: .
+      dockerfile: eMedicalManagementMinimalBlazor/Dockerfile
+      ports:
+          - :8081:80"
+
+  emedicalmanagementminimalapi:
+    image: ${DOCKER_REGISTRY-}emedicalmanagementminimalapi
+    build:
+      context: .
+      dockerfile: eMedicalManagementMinimalAPI/Dockerfile
+      ports:
+          - :8083:80"
+      depeonds_on:
+          - db
+
+  emedicalmanagementminimalmvc:
+    image: ${DOCKER_REGISTRY-}emedicalmanagementminimalmvc
+    build:
+      context: .
+      dockerfile: eMedicalManagementMinimalMVC/Dockerfile
+      ports:
+          - :8082:80"
+
+  db:
+     image: "mcr.microsoft.com/mssql/server:2017-latest-ubuntu"
+     ports:
+         - "1433:1433"
+
+    environment:
+         SA_PASSWORD: "555-admin"
+         ACCEPT_EULA: "Y"
+
+redis:
+   image: redis

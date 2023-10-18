@@ -1,0 +1,20 @@
+2023-06-15 15:34:34.978 +02:00 [INF] application instance created
+2023-06-15 15:34:35.099 +02:00 [INF] request pipeline has been configured
+2023-06-15 15:34:35.124 +02:00 [INF] Apis have been registered
+2023-06-15 15:34:36.171 +02:00 [INF] Now listening on: https://localhost:7048
+2023-06-15 15:34:36.202 +02:00 [INF] Now listening on: http://localhost:5265
+2023-06-15 15:34:36.203 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-15 15:34:36.203 +02:00 [INF] Hosting environment: Development
+2023-06-15 15:34:36.203 +02:00 [INF] Content root path: /Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementMinimalAPI
+2023-06-15 15:34:37.398 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7048/swagger/index.html - -
+2023-06-15 15:34:37.714 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7048/swagger/index.html - - - 200 - text/html;charset=utf-8 318.9532ms
+2023-06-15 15:34:37.919 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7048/swagger/v1/swagger.json - -
+2023-06-15 15:34:37.930 +02:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-06-15 15:34:38.184 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7048/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 265.2939ms
+2023-06-15 15:35:34.432 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7048/api/provinces - -
+2023-06-15 15:35:34.456 +02:00 [INF] Executing endpoint 'HTTP: GET /api/provinces/'
+2023-06-15 15:35:36.107 +02:00 [INF] Executed DbCommand (63ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[id], [p].[name], [p].[createdby], [p].[createddate], [p].[Guid], [p].[modifiedby], [p].[modifieddate]
+FROM [support].[provinces] AS [p]
+2023-06-15 15:35:36.288 +02:00 [INF] Executed endpoint 'HTTP: GET /api/provinces/'
+2023-06-15 15:35:36.301 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7048/api/provinces - - - 200 - application/json;+charset=utf-8 1868.5302ms

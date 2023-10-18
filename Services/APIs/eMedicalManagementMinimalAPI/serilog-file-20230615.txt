@@ -1,0 +1,125 @@
+2023-06-15 15:39:11.755 +02:00 [INF] application instance created
+2023-06-15 15:39:11.857 +02:00 [INF] request pipeline has been configured
+2023-06-15 15:39:11.877 +02:00 [INF] Apis have been registered
+2023-06-15 15:39:12.689 +02:00 [INF] Now listening on: https://localhost:7048
+2023-06-15 15:39:12.691 +02:00 [INF] Now listening on: http://localhost:5265
+2023-06-15 15:39:12.692 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-15 15:39:12.692 +02:00 [INF] Hosting environment: Development
+2023-06-15 15:39:12.692 +02:00 [INF] Content root path: /Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementMinimalAPI
+2023-06-15 15:39:13.926 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7048/swagger/index.html - -
+2023-06-15 15:39:14.240 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7048/swagger/index.html - - - 200 - text/html;charset=utf-8 317.1486ms
+2023-06-15 15:39:14.412 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7048/swagger/v1/swagger.json - -
+2023-06-15 15:39:14.424 +02:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-06-15 15:39:14.662 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7048/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 249.2983ms
+2023-06-15 15:39:20.761 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7048/api/institutions - -
+2023-06-15 15:39:20.784 +02:00 [INF] Executing endpoint 'HTTP: GET /api/institutions/'
+2023-06-15 15:39:22.290 +02:00 [INF] Executed DbCommand (88ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[id], [i].[description], [i].[name], [i].[parent_institution_id], [i].[active], [i].[cicp_company_no], [i].[cipc_registration_date], [i].[createdby], [i].[createdby_id], [i].[createddate], [i].[Guid], [i].[modifiedby], [i].[modifieddate], [i].[physical_address_line1], [i].[physical_address_line2], [i].[physical_address_line3], [i].[physical_address_line4], [i].[physical_address_line5], [i].[postal_address_line1], [i].[postal_address_line2], [i].[postal_address_line3], [i].[postal_address_line4], [i].[postal_address_line5], [i].[vat_no]
+FROM [support].[institutions] AS [i]
+2023-06-15 15:39:22.349 +02:00 [INF] Executed endpoint 'HTTP: GET /api/institutions/'
+2023-06-15 15:39:22.362 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7048/api/institutions - - - 200 - application/json;+charset=utf-8 1601.3755ms
+2023-06-15 16:12:17.726 +02:00 [INF] application instance created
+2023-06-15 16:12:17.837 +02:00 [INF] request pipeline has been configured
+2023-06-15 16:12:17.859 +02:00 [INF] Apis have been registered
+2023-06-15 16:12:18.661 +02:00 [INF] Now listening on: https://localhost:7048
+2023-06-15 16:12:18.663 +02:00 [INF] Now listening on: http://localhost:5265
+2023-06-15 16:12:18.664 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-15 16:12:18.664 +02:00 [INF] Hosting environment: Development
+2023-06-15 16:12:18.664 +02:00 [INF] Content root path: /Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementMinimalAPI
+2023-06-15 16:12:19.932 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7048/swagger/index.html - -
+2023-06-15 16:12:20.215 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7048/swagger/index.html - - - 200 - text/html;charset=utf-8 284.9400ms
+2023-06-15 16:12:20.389 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7048/swagger/v1/swagger.json - -
+2023-06-15 16:12:20.401 +02:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-06-15 16:12:20.647 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7048/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 257.8917ms
+2023-06-15 16:12:30.617 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7048/api/roles - -
+2023-06-15 16:12:30.639 +02:00 [INF] Executing endpoint 'HTTP: GET /api/roles/'
+2023-06-15 16:12:32.188 +02:00 [INF] Executed DbCommand (101ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[id], [r].[description], [r].[name], [r].[createdby], [r].[createddate], [r].[Guid], [r].[modifiedby], [r].[modifieddate]
+FROM [support].[roles] AS [r]
+2023-06-15 16:12:32.289 +02:00 [INF] Executed endpoint 'HTTP: GET /api/roles/'
+2023-06-15 16:12:32.310 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7048/api/roles - - - 200 - application/json;+charset=utf-8 1693.4607ms
+2023-06-15 16:13:59.012 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7048/api/roles application/json 306
+2023-06-15 16:13:59.014 +02:00 [INF] Executing endpoint 'HTTP: POST /api/roles/'
+2023-06-15 16:13:59.204 +02:00 [INF] Executed DbCommand (53ms) [Parameters=[@__role_name_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [r].[id], [r].[description], [r].[name], [r].[createdby], [r].[createddate], [r].[Guid], [r].[modifiedby], [r].[modifieddate]
+FROM [support].[roles] AS [r]
+WHERE [r].[name] = @__role_name_0
+2023-06-15 16:13:59.240 +02:00 [INF] Executed DbCommand (27ms) [Parameters=[@__role_RoleName_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [r].[id], [r].[description], [r].[name], [r].[createdby], [r].[createddate], [r].[Guid], [r].[modifiedby], [r].[modifieddate]
+FROM [support].[roles] AS [r]
+WHERE [r].[name] = @__role_RoleName_0
+2023-06-15 16:13:59.488 +02:00 [INF] Executed DbCommand (45ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 50), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime), @p4='?' (DbType = Guid), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [support].[roles] ([description], [name], [createdby], [createddate], [Guid], [modifiedby], [modifieddate])
+OUTPUT INSERTED.[id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2023-06-15 16:13:59.522 +02:00 [INF] Executed endpoint 'HTTP: POST /api/roles/'
+2023-06-15 16:13:59.523 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7048/api/roles application/json 306 - 200 0 - 510.8082ms
+2023-06-15 16:14:15.456 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7048/api/roles - -
+2023-06-15 16:14:15.456 +02:00 [INF] Executing endpoint 'HTTP: GET /api/roles/'
+2023-06-15 16:14:15.552 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[id], [r].[description], [r].[name], [r].[createdby], [r].[createddate], [r].[Guid], [r].[modifiedby], [r].[modifieddate]
+FROM [support].[roles] AS [r]
+2023-06-15 16:14:15.566 +02:00 [INF] Executed endpoint 'HTTP: GET /api/roles/'
+2023-06-15 16:14:15.566 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7048/api/roles - - - 200 - application/json;+charset=utf-8 110.5130ms
+2023-06-15 16:24:18.755 +02:00 [INF] application instance created
+2023-06-15 16:24:18.881 +02:00 [INF] request pipeline has been configured
+2023-06-15 16:24:18.903 +02:00 [INF] Apis have been registered
+2023-06-15 16:24:19.704 +02:00 [INF] Now listening on: https://localhost:7048
+2023-06-15 16:24:19.754 +02:00 [INF] Now listening on: http://localhost:5265
+2023-06-15 16:24:19.755 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-15 16:24:19.756 +02:00 [INF] Hosting environment: Development
+2023-06-15 16:24:19.756 +02:00 [INF] Content root path: /Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementMinimalAPI
+2023-06-15 16:24:20.934 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7048/swagger/index.html - -
+2023-06-15 16:24:21.207 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7048/swagger/index.html - - - 200 - text/html;charset=utf-8 274.2621ms
+2023-06-15 16:24:21.360 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7048/swagger/v1/swagger.json - -
+2023-06-15 16:24:21.368 +02:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-06-15 16:24:21.585 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7048/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 224.4262ms
+2023-06-15 16:24:29.346 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7048/api/provinces - -
+2023-06-15 16:24:29.366 +02:00 [INF] Executing endpoint 'HTTP: GET /api/provinces/'
+2023-06-15 16:24:30.913 +02:00 [INF] Executed DbCommand (94ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[id], [p].[name], [p].[createdby], [p].[createddate], [p].[Guid], [p].[modifiedby], [p].[modifieddate]
+FROM [support].[provinces] AS [p]
+2023-06-15 16:24:31.098 +02:00 [INF] Executed endpoint 'HTTP: GET /api/provinces/'
+2023-06-15 16:24:31.111 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7048/api/provinces - - - 200 - application/json;+charset=utf-8 1764.5166ms
+2023-06-15 16:25:22.971 +02:00 [INF] application instance created
+2023-06-15 16:25:23.082 +02:00 [INF] request pipeline has been configured
+2023-06-15 16:25:23.103 +02:00 [INF] Apis have been registered
+2023-06-15 16:25:23.923 +02:00 [INF] Now listening on: https://localhost:7048
+2023-06-15 16:25:23.982 +02:00 [INF] Now listening on: http://localhost:5265
+2023-06-15 16:25:23.982 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-15 16:25:23.983 +02:00 [INF] Hosting environment: Development
+2023-06-15 16:25:23.983 +02:00 [INF] Content root path: /Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementMinimalAPI
+2023-06-15 16:25:25.174 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7048/swagger/index.html - -
+2023-06-15 16:25:25.502 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7048/swagger/index.html - - - 200 - text/html;charset=utf-8 329.6993ms
+2023-06-15 16:25:25.663 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7048/swagger/v1/swagger.json - -
+2023-06-15 16:25:25.673 +02:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-06-15 16:25:25.929 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7048/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 265.2946ms
+2023-06-15 16:25:33.332 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7048/api/provinces - -
+2023-06-15 16:25:33.352 +02:00 [INF] Executing endpoint 'HTTP: GET /api/provinces/'
+2023-06-15 16:25:34.841 +02:00 [INF] Executed DbCommand (108ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[id], [p].[name], [p].[createdby], [p].[createddate], [p].[Guid], [p].[modifiedby], [p].[modifieddate]
+FROM [support].[provinces] AS [p]
+2023-06-15 16:25:35.044 +02:00 [INF] Executed endpoint 'HTTP: GET /api/provinces/'
+2023-06-15 16:25:35.058 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7048/api/provinces - - - 200 - application/json;+charset=utf-8 1726.4212ms
+2023-06-15 16:28:20.788 +02:00 [INF] application instance created
+2023-06-15 16:28:20.890 +02:00 [INF] request pipeline has been configured
+2023-06-15 16:28:20.909 +02:00 [INF] Apis have been registered
+2023-06-15 16:28:21.769 +02:00 [INF] Now listening on: https://localhost:7048
+2023-06-15 16:28:21.796 +02:00 [INF] Now listening on: http://localhost:5265
+2023-06-15 16:28:21.797 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-15 16:28:21.797 +02:00 [INF] Hosting environment: Development
+2023-06-15 16:28:21.797 +02:00 [INF] Content root path: /Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Services/APIs/eMedicalManagementMinimalAPI
+2023-06-15 16:28:23.027 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7048/swagger/index.html - -
+2023-06-15 16:28:23.291 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7048/swagger/index.html - - - 200 - text/html;charset=utf-8 265.4457ms
+2023-06-15 16:28:23.438 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7048/swagger/v1/swagger.json - -
+2023-06-15 16:28:23.448 +02:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-06-15 16:28:23.678 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7048/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 240.2226ms
+2023-06-15 16:28:29.178 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7048/api/roles - -
+2023-06-15 16:28:29.199 +02:00 [INF] Executing endpoint 'HTTP: GET /api/roles/'
+2023-06-15 16:28:30.664 +02:00 [INF] Executed DbCommand (94ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[id], [r].[description], [r].[name], [r].[createdby], [r].[createddate], [r].[Guid], [r].[modifiedby], [r].[modifieddate]
+FROM [support].[roles] AS [r]
+2023-06-15 16:28:30.859 +02:00 [INF] Executed endpoint 'HTTP: GET /api/roles/'
+2023-06-15 16:28:30.875 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7048/api/roles - - - 200 - application/json;+charset=utf-8 1697.7364ms

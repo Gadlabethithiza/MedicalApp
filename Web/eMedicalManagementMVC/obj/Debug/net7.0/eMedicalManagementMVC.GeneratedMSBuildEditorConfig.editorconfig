@@ -1,0 +1,149 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = eMedicalManagementMVC
+build_property.RootNamespace = eMedicalManagementMVC
+build_property.ProjectDir = /Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/Category/AddCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvQWRkQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/Category/UpdateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvVXBkYXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/Category/ViewCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvVmlld0NhdGVnb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/Institution/AddInstitution.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5zdGl0dXRpb24vQWRkSW5zdGl0dXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/Institution/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5zdGl0dXRpb24vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/Institution/IndexOld.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5zdGl0dXRpb24vSW5kZXhPbGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/Product/AddProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9BZGRQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/Product/ProductIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9Qcm9kdWN0SW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/Product/UpdateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9VcGRhdGVQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/Product/ViewProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9WaWV3UHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/Provinces/AddProvince.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvdmluY2VzL0FkZFByb3ZpbmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/Provinces/GetProvince.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvdmluY2VzL0dldFByb3ZpbmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/Provinces/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvdmluY2VzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/Provinces/IndexNew.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvdmluY2VzL0luZGV4TmV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/Provinces/UpdateProvince.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvdmluY2VzL1VwZGF0ZVByb3ZpbmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/SchoolModule/Administration/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2Nob29sTW9kdWxlL0FkbWluaXN0cmF0aW9uL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/SchoolModule/Course/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2Nob29sTW9kdWxlL0NvdXJzZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/SchoolModule/Department/DepartmentHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2Nob29sTW9kdWxlL0RlcGFydG1lbnQvRGVwYXJ0bWVudEhvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/SchoolModule/Department/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2Nob29sTW9kdWxlL0RlcGFydG1lbnQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/SchoolModule/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2Nob29sTW9kdWxlL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/SchoolModule/Instructor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2Nob29sTW9kdWxlL0luc3RydWN0b3IvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/SchoolModule/Student/StudentHomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2Nob29sTW9kdWxlL1N0dWRlbnQvU3R1ZGVudEhvbWVQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/Shared/_eSchoolLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19lU2Nob29sTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Web/eMedicalManagementMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-nvvhpqvhfs

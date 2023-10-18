@@ -1,0 +1,217 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Infrastructure/eMedicalManagementMinimalAPI.Infrastructure.Persistence/eMedicalManagementMinimalAPI.Infrastructure.Persistence.csproj": {}
+  },
+  "projects": {
+    "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Core/eMedicalManagementMinimalAPI.Application/eMedicalManagementMinimalAPI.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Core/eMedicalManagementMinimalAPI.Application/eMedicalManagementMinimalAPI.Application.csproj",
+        "projectName": "eMedicalManagementMinimalAPI.Application",
+        "projectPath": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Core/eMedicalManagementMinimalAPI.Application/eMedicalManagementMinimalAPI.Application.csproj",
+        "packagesPath": "/Users/mac/.nuget/packages/",
+        "outputPath": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Core/eMedicalManagementMinimalAPI.Application/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Core/eMedicalManagementMinimalAPI.Domain/eMedicalManagementMinimalAPI.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Core/eMedicalManagementMinimalAPI.Domain/eMedicalManagementMinimalAPI.Domain.csproj",
+        "projectName": "eMedicalManagementMinimalAPI.Domain",
+        "projectPath": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Core/eMedicalManagementMinimalAPI.Domain/eMedicalManagementMinimalAPI.Domain.csproj",
+        "packagesPath": "/Users/mac/.nuget/packages/",
+        "outputPath": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Core/eMedicalManagementMinimalAPI.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Infrastructure/eMedicalManagementMinimalAPI.Infrastructure.Persistence/eMedicalManagementMinimalAPI.Infrastructure.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Infrastructure/eMedicalManagementMinimalAPI.Infrastructure.Persistence/eMedicalManagementMinimalAPI.Infrastructure.Persistence.csproj",
+        "projectName": "eMedicalManagementMinimalAPI.Infrastructure.Persistence",
+        "projectPath": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Infrastructure/eMedicalManagementMinimalAPI.Infrastructure.Persistence/eMedicalManagementMinimalAPI.Infrastructure.Persistence.csproj",
+        "packagesPath": "/Users/mac/.nuget/packages/",
+        "outputPath": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Infrastructure/eMedicalManagementMinimalAPI.Infrastructure.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Core/eMedicalManagementMinimalAPI.Application/eMedicalManagementMinimalAPI.Application.csproj": {
+                "projectPath": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Core/eMedicalManagementMinimalAPI.Application/eMedicalManagementMinimalAPI.Application.csproj"
+              },
+              "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Core/eMedicalManagementMinimalAPI.Domain/eMedicalManagementMinimalAPI.Domain.csproj": {
+                "projectPath": "/Users/mac/Projects/WEB APPS/eMedicalWebManagement/src/Core/eMedicalManagementMinimalAPI.Domain/eMedicalManagementMinimalAPI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
